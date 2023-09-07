@@ -1,0 +1,25 @@
+<h1 class="test-title">
+  {{ section.settings.test-text }}
+</h1>
+
+{% schema %}
+  {
+    "presets": [
+      {
+        "category": "TEST",
+        "name": "name of preset"
+      }
+    ],
+
+    "name": "Test name",
+
+    "settings": [
+      {
+        "type": "text",
+        "id": "test-text",
+        "label": "Test Text Label"
+      }
+    ]
+
+  }
+{% endschema %}
